@@ -1,5 +1,3 @@
-[toc]
-
 # MCCF
 
 Source code for AAAI2020 paper ["**Multi-Component Graph Convolutional Collaborative Filtering**"](https://arxiv.xilesou.top/abs/1911.10699)
