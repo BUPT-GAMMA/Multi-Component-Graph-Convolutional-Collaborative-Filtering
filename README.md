@@ -1,6 +1,6 @@
 # MCCF
 
-Source code for AAAI2020 paper ["**Multi-Component Graph Convolutional Collaborative Filtering**"](https://arxiv.xilesou.top/abs/1911.10699)
+Source code for AAAI2020 paper ["**Multi-Component Graph Convolutional Collaborative Filtering**"](http://www.shichuan.org/doc/77.pdf)
 
 
 
@@ -99,10 +99,14 @@ HINT: the sampling thresholds in aggregator.py change with dataset.
 # Reference
 
 ```
-@article{wang2019multi,
-  title={Multi-Component Graph Convolutional Collaborative Filtering},
+@inproceedings{wang2020multi,
+  title={Multi-component graph convolutional collaborative filtering},
   author={Wang, Xiao and Wang, Ruijia and Shi, Chuan and Song, Guojie and Li, Qingyong},
-  journal={arXiv preprint arXiv:1911.10699},
-  year={2019}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  number={04},
+  pages={6267--6274},
+  year={2020}
 }
 ```
+
