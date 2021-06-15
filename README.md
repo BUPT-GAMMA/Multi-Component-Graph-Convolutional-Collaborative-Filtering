@@ -91,7 +91,20 @@ MCCF/
 python run.py 
 ~~~
 
-HINT: the sampling thresholds in aggregator.py change with dataset.
+
+
+## Hyper-parameters Tuning
+
+There are three key hyper-parameters: *number of components*, *lr* and *embed_dim*.
+
+- number of components: [1, 2, 3, 4]
+- lr: [0.0005, 0.001, 0.002, 0.0025]
+- embed_dim: [8, 16, 32, 64, 128]
+
+**HINT**: N and the sampling threshold in aggregator.py are calculated based on the dataset. Additionally, the number of epochs needs to be large enough to ensure that the model converges. According to our empirical results, generally 60+ is required, and the larger the dataset, the larger the number of epochs.
+
+For the hyper-parameter settings of three benchmark datasets used in this paper, please refer to Section 4.4.
+
 
 
 
