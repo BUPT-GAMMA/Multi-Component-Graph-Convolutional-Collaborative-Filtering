@@ -37,28 +37,28 @@ MCCF/
 │   └── combiner.py: implementation of the combiner
 ├── datasets/
 │   ├── yelp/
-│   │		├── business_user.txt
+│   │	├── business_user.txt
 │   │   ├── preprocess.py: data preprocessing example
 │   │   └── _allData.p
 │   ├── amazon/ 
 │   │   ├── user_item.dat
 │   │   └── _allData.p
 │   └── movielens/
-│   		├── ub.base
+│   	├── ub.base
 │       ├── ub.test
-│   		├── ua.base
+│   	├── ua.base
 │       ├── ua.test
-│   		├── u5.base
+│   	├── u5.base
 │       ├── u5.test
-│   		├── u4.base
+│   	├── u4.base
 │       ├── u4.test
-│   		├── u3.base
+│   	├── u3.base
 │       ├── u3.test
-│   		├── u2.base
+│   	├── u2.base
 │       ├── u2.test
-│   		├── u1.base
+│   	├── u1.base
 │       ├── u1.test
-│   		├── u.data
+│   	├── u.data
 │       ├── u.user
 │       ├── u.item
 │       └── _allData.p
